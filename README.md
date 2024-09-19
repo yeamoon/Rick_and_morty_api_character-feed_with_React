@@ -1,70 +1,88 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rick and Morty Character Feed
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+This is a React-based application that fetches, displays, and manages a list of characters from the Rick and Morty API. It supports sorting, filtering, and pagination functionalities. Each character is displayed in a styled card layout, and users can navigate through pages and adjust sorting and filtering options.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Character Display: Shows a list of characters with their name, species, status, gender, and date created.
+Sorting: Sort characters by name or date created.
+Filtering: Filter characters by status (All, Alive, Dead, Unknown).
+Pagination: Navigate through pages of characters.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+React
+Axios (for API requests)
+CSS (for styling)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Node.js and npm (Node Package Manager) installed on your machine. You can download them from [Node.js official website](https://nodejs.org/).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+   
+   git clone https://github.com/yeamoon/post-feed.git
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Navigate to the project directory:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ 
+   cd post-feed
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Install the dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ 
+   npm install
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Running the Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Start the development server:
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   npm start
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Open your browser and navigate to http://localhost:3000 to see the application in action.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Running the  Built application
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Navigate to the project directory : cd post-feed
+Navigate to the Branch:  Production_Builds
 
-### Deployment
+Run:   npm install -g serve
+       serve -s build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## File Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   src - Contains the source code for the application.
+   Pages - Contains React components.
+   CharacterPage.jsx - Main page component that fetches and displays the characters.
+   CharacterCard.jsx - Component for displaying individual character cards.
+   SortingAndFiltering.jsx - Component for sorting and filtering options.
+   ErrorMessage.jsx - Component for displaying error messages.
+   App.jsx - Main application component.
+   public/ - Contains static files and the `index.html` file.
+   package.json - Contains project metadata and dependencies.
+
+## Styling
+
+Character Cards: Styled with CSS to include circular images and information boxes with various styles.
+Pagination Controls: Styled to be modular and user-friendly.
+
+## Acknowledgments
+
+[Rick and Morty API](https://rickandmortyapi.com/) - For providing the character data.
+[React Documentation](https://reactjs.org/docs/getting-started.html) - For React guidelines and best practices.
+
+
