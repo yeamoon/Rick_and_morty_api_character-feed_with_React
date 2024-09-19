@@ -7,16 +7,21 @@ This is a React-based application that fetches, displays, and manages a list of 
 
 ## Features
 
-Character Display: Shows a list of characters with their name, species, status, gender, and date created.
-Sorting: Sort characters by name or date created.
-Filtering: Filter characters by status (All, Alive, Dead, Unknown).
-Pagination: Navigate through pages of characters.
+1.Character Display: Shows a list of characters with their name, species, status, gender, and date created.
+
+2.Sorting: Sort characters by name or date created.
+
+3.Filtering: Filter characters by status (All, Alive, Dead, Unknown).
+
+4.Pagination: Navigate through pages of characters.
 
 ## Technologies Used
 
-React
-Axios (for API requests)
-CSS (for styling)
+1.React
+
+2.Axios (for API requests)
+
+3.CSS (for styling)
 
 
 ### Prerequisites
