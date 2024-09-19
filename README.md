@@ -15,6 +15,8 @@ This is a React-based application that fetches, displays, and manages a list of 
 
 4. Pagination: Navigate through pages of characters.
 
+5. Dark Mode Toggle:  Allows users to switch between light and dark themes. The user’s theme preference is stored in the browser’s localStorage, ensuring the preference is remembered across sessions, even after the browser is closed.
+
 ## Technologies Used
 
 1. React
@@ -83,7 +85,8 @@ Run:   npm install -g serve
    
    ErrorMessage.jsx - Component for displaying error messages.
    
-   App.jsx - Main application component.
+   App.jsx - Main application component. Inside it A button  is provided in the UI to toggle between light and dark themes.
+   The button's appearance updates based on the current theme (dark mode or light mode).
    
    public/ - Contains static files and the index.html file.
    
