@@ -93,6 +93,7 @@ Run:   npm install -g serve
 ## Styling
 
 Character Cards: Styled with CSS to include circular images and information boxes with various styles.
+
 Pagination Controls: Styled to be modular and user-friendly.
 
 ## Acknowledgments
