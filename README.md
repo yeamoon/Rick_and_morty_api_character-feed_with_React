@@ -7,21 +7,21 @@ This is a React-based application that fetches, displays, and manages a list of 
 
 ## Features
 
-1.Character Display: Shows a list of characters with their name, species, status, gender, and date created.
+1. Character Display: Shows a list of characters with their name, species, status, gender, and date created.
 
-2.Sorting: Sort characters by name or date created.
+2. Sorting: Sort characters by name or date created.
 
-3.Filtering: Filter characters by status (All, Alive, Dead, Unknown).
+3. Filtering: Filter characters by status (All, Alive, Dead, Unknown).
 
-4.Pagination: Navigate through pages of characters.
+4. Pagination: Navigate through pages of characters.
 
 ## Technologies Used
 
-1.React
+1. React
 
-2.Axios (for API requests)
+2. Axios (for API requests)
 
-3.CSS (for styling)
+3. CSS (for styling)
 
 
 ### Prerequisites
@@ -62,6 +62,7 @@ Node.js and npm (Node Package Manager) installed on your machine. You can downlo
 
 
 Navigate to the project directory : cd post-feed
+
 Navigate to the Branch:  Production_Builds
 
 Run:   npm install -g serve
@@ -71,14 +72,23 @@ Run:   npm install -g serve
 ## File Structure
 
    src - Contains the source code for the application.
+   
    Pages - Contains React components.
+   
    CharacterPage.jsx - Main page component that fetches and displays the characters.
+   
    CharacterCard.jsx - Component for displaying individual character cards.
+   
    SortingAndFiltering.jsx - Component for sorting and filtering options.
+   
    ErrorMessage.jsx - Component for displaying error messages.
+   
    App.jsx - Main application component.
-   public/ - Contains static files and the `index.html` file.
+   
+   public/ - Contains static files and the index.html file.
+   
    package.json - Contains project metadata and dependencies.
+   
 
 ## Styling
 
